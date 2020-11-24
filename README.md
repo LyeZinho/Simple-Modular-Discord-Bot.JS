@@ -55,9 +55,9 @@ app.listen(process.env.PORT);
 const Discord = require("discord.js"); //Importando a biblioteca discord dot JS  
 const client = new Discord.Client(); //Criação de um novo Client
 const config = require("./config.json"); //Pegando o prefixo do bot para respostas de comandos
+/*
 
-
-/*              Area designada para os eventos
+              Area designada para os eventos
 
              |Este espaço e onde voçe pode aplicar seus eventos
              v
