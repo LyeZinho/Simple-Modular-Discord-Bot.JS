@@ -94,7 +94,7 @@ client.login(process.env.TOKEN); //Ligando o Bot caso ele consiga acessar o toke
 
 
 
-## Token com protecão
+## Token com proteção
 E bem simples crie um ```.env``` dentro do dot env escreva o seguinte codigo
 ```env
 TOKEN=SuaToken
