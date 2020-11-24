@@ -92,6 +92,20 @@ const config = require("./config.json"); //Pegando o prefixo do bot para respost
 client.login(process.env.TOKEN); //Ligando o Bot caso ele consiga acessar o token
 ```
 
+
+
+## Token com protecão
+E bem simples crie um ```.env``` dentro do dot env escreva o seguinte codigo
+```env
+TOKEN=SuaToken
+
+
+```
+
+
+
+
+
 ## Contribuições
 Contribua com seus codigos contribua com seus comandos este codigo e 100% open source 
 e permitido o uso comercial e não é nessesario dar creditos!
