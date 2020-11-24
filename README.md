@@ -85,9 +85,11 @@ client.login(process.env.TOKEN); //Ligando o Bot caso ele consiga acessar o toke
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Contribua com seus codigos contribua com seus comandos este codigo e 100% open source 
+e permitido o uso comercial e não é nessesario dar creditos!
 
-Please make sure to update tests as appropriate.
+Por favor se você tiver um codigo e usar esta base por favor contribua conosco enviando seu codigo
+para este repositorio. 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
