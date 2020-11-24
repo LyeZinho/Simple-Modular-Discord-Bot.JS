@@ -1,4 +1,4 @@
-
+<p><img src="https://github.com/LyeZinho/Simple-Modular-Discord-Bot.JS/blob/gh-pages/Assets/SmdbJs.png?raw=true" alt="description" width="100" height="48" /></p>
 
 
 
