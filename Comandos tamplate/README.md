@@ -34,7 +34,12 @@ client.on('message', message => {
 Seus comandos serão adcionados dentro desta pasta
 
 
-### 3- Cole seu ficheiro dentro da pasta comando ###
+### 3- Cole seu ficheiro dentro da pasta comands ###
+
+
+
+Esta e a base para a criação de um comando novo 
+este e o sistema dinamico de criação de comandos.
 
 
 ```javascript
@@ -55,4 +60,12 @@ contribuir com o projeto!
 };
 ```
 
+
+
+
+
+
+
+
 ### 4- Pronto seu comando foi criado ###
+Agora e so usar o comando
