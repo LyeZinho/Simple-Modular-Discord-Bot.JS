@@ -54,3 +54,5 @@ contribuir com o projeto!
     
 };
 ```
+
+### 4- Pronto seu comando foi criado ###
