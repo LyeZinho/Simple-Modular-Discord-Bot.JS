@@ -19,7 +19,7 @@ Sistema super simples para criação de bots para discord com agregação modula
 
 
 
-## Installation
+## Instalação
 
 Use os arquivos do [discord.Js ](https://discord.js.org/#/) para poder iniciar seu projeto.
 
@@ -84,12 +84,12 @@ const config = require("./config.json"); //Pegando o prefixo do bot para respost
 client.login(process.env.TOKEN); //Ligando o Bot caso ele consiga acessar o token
 ```
 
-## Contributing
+## Contribuições
 Contribua com seus codigos contribua com seus comandos este codigo e 100% open source 
 e permitido o uso comercial e não é nessesario dar creditos!
 
 Por favor se você tiver um codigo e usar esta base por favor contribua conosco enviando seu codigo
 para este repositorio. 
 
-## License
+## Licença
 [MIT](https://choosealicense.com/licenses/mit/)
