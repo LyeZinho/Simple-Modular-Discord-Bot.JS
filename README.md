@@ -1,5 +1,5 @@
-<p><img src="https://github.com/LyeZinho/Simple-Modular-Discord-Bot.JS/blob/gh-pages/Assets/SmdbJs.png?raw=true" alt="description" width="500" height="400" /></p>
-
+![GitHub Logo](/Assets/SmdbJs.png)
+Format: ![Alt Text](url)
 
 
 
