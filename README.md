@@ -33,7 +33,7 @@ Use os arquivos do [discord.Js ](https://discord.js.org/#/) para poder iniciar s
 
 
 ```js
-pip install discord.js
+npm install discord.js
 ```
 
 
