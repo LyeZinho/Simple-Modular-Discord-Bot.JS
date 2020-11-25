@@ -42,14 +42,6 @@ npm install discord.js
 E o arquivo fonte do bot onde o bot vai rodar!
 
 ```js
-/*
-Requests para o bot ficar online em qualquer servidor
-
-
-           |
-           v
-
-*/
 const express = require('express');
 const app = express();
 app.get("/", (request, response) => {
@@ -58,37 +50,12 @@ app.get("/", (request, response) => {
   console.log(`Ping recebido às ${ping.getUTCHours()}:${ping.getUTCMinutes()}:${ping.getUTCSeconds()}`);
   response.sendStatus(200);
 });
-app.listen(process.env.PORT); 
-/*
+app.listen(process.env.PORT); // Recebe solicitações que o deixa online
 
-
-
-
-//Cliente do discord ou literalmente o nucleo do discord
-
-           |
-           v
-           
-*/
-const Discord = require("discord.js"); //Importando a biblioteca discord dot JS  
+const Discord = require("discord.js"); //Conexão com a livraria Discord.js
 const client = new Discord.Client(); //Criação de um novo Client
 const config = require("./config.json"); //Pegando o prefixo do bot para respostas de comandos
-/*
 
-              Area designada para os eventos
-
-             |Este espaço e onde voçe pode aplicar seus eventos
-             v
-           
-           
-           
-           
-           
-           
-           |Login do cliente
-           v         
-
-*/
 client.login(process.env.TOKEN); //Ligando o Bot caso ele consiga acessar o token
 ```
 
