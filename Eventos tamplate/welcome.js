@@ -4,7 +4,7 @@ client.on("guildMemberAdd", async(member) => {
     let channel = await client.channels.cache.get("IDdoCanalDeBoasVindas");
     let emoji = await member.guild.emojis.cache.find(emoji => emoji.name === "nomedoemoji");
     if (guild != member.guild) {
-        return console.log("Sem boas-vindas pra você! Sai daqui saco pela.");
+        return console.log("Alguem entrou em outro servidor!");
     } else {
         let embed = await new Discord.MessageEmbed()
             .setColor("#7c2ae8")
