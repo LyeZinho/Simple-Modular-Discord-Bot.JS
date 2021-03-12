@@ -18,13 +18,13 @@ exports.run = async(client, message, args) => {
     */
     let avatar = message.author.displayAvatarURL({ format: 'png' });
     const embed = new Discord.MessageEmbed()
-        .setTitle('Kiss')
+        .setTitle('Titulo')
         .setColor('#000000')
         .setDescription(`${message.author} acaba de beijar ${user}`)
         .setImage(rand)
         .setTimestamp()
         .setThumbnail(avatar)
-        .setFooter('Kissu kissu kissu')
+        .setFooter('💎')
         .setAuthor(message.author.tag, avatar);
     await message.channel.send(embed);
 }
