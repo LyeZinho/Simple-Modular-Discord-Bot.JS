@@ -11,8 +11,7 @@ module.exports.run = async(client, message, args) => {
     let uptime = `🗓️ ${days.toFixed()} dias\n🗓️ ${hours.toFixed()} horas\n🗓️ ${minutes.toFixed()} minutos\n🗓️ ${seconds.toFixed()} segundos`;
 
     const embed = new Discord.MessageEmbed()
-        .setTitle(`Tempo de atividade 🕰️`)
-        .setThumbnail("https://imgur.com/WZMylbw.gif")
+        .setTitle(`Tempo de atividade`)
         .setColor("#FF0000")
         .setDescription(`**Estou online há:**\n${uptime}`)
 
