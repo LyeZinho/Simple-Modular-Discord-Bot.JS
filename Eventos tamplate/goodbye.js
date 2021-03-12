@@ -4,7 +4,7 @@ client.on("guildMemberRemove", async(member) => {
     let channel = await client.channels.cache.get("IDdoCanalDeDespedidas");
     let emoji = await member.guild.emojis.cache.find(emoji => emoji.name === "nomedoemoji");
     if (guild != member.guild) {
-        return console.log("Algum saco pela saiu do servidor. Mas não é nesse, então tá tudo bem :)");
+        return console.log("Alguem saiu em outro servidor!");
     } else {
         let embed = await new Discord.MessageEmbed()
             .setColor("#7c2ae8")
