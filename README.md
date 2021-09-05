@@ -16,7 +16,7 @@
 
 
 # Simple-Modular-Discord-Bot.JS
-Framework simples para criação de Discord Bot 
+Recursos simples para criação de Discord Bot 
 
 
 
@@ -41,6 +41,7 @@ npm install discord.js
 E o arquivo fonte do bot onde o bot vai rodar!
 
 ```js
+//Express app
 const express = require('express');
 const app = express();
 app.get("/", (request, response) => {
@@ -50,6 +51,7 @@ app.get("/", (request, response) => {
   response.sendStatus(200);
 });
 app.listen(process.env.PORT); // Recebe solicitações que o deixa online
+//Express app
 
 const Discord = require("discord.js"); //Conexão com a biblioteca Discord.js
 const client = new Discord.Client(); //Criação de um novo Client
